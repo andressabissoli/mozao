@@ -10,15 +10,15 @@ function check() {
       $('.wrapper').addClass('throb');
     }
 
-    // Mostrar a mensagem
-    msg.style.display = "block";
+    // Trocar o texto do span
+    msg.textContent = "infinito elevado a infinito ♾️";
 
   } else {
     if ($('.wrapper').hasClass('throb')) {
       $('.wrapper').removeClass('throb');
     }
 
-    // Esconder a mensagem
-    msg.style.display = "none";
+    // Voltar o texto original
+    msg.textContent = "(Click on words)";
   }
 }
