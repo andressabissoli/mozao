@@ -17,6 +17,6 @@ function check() {
       $('.wrapper').removeClass('throb');
     }
 
-    msg.textContent = "(Clique nas palavras)";
+    msg.textContent = "infinito elevado a infinito ♾️";
   }
 }
