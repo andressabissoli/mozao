@@ -10,7 +10,6 @@ function check() {
       $('.wrapper').addClass('throb');
     }
 
-    // Trocar o texto do span
     msg.textContent = "infinito elevado a infinito ♾️";
 
   } else {
@@ -18,7 +17,6 @@ function check() {
       $('.wrapper').removeClass('throb');
     }
 
-    // Voltar o texto original
     msg.textContent = "(Clique nas palavras)";
   }
 }
