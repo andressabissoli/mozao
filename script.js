@@ -19,6 +19,6 @@ function check() {
     }
 
     // Voltar o texto original
-    msg.textContent = "(Click on words)";
+    msg.textContent = "(Clique nas palavras)";
   }
 }
